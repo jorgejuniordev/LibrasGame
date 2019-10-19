@@ -1,0 +1,463 @@
+/* 
+/////////////////////////////////////////////////
+/////////////// BY: Jorge Junior; ///////////////
+////////////// LAYOUT LIBRAS GAME ///////////////
+/////////////////////////////////////////////////
+*/
+
+@import url('font.css');
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #05498A; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #002360;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00236D;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+	border: 0 none;
+	padding: 0 none;
+	background-color: #05498A;
+}
+
+body { 
+	background-image: url('../images/background.jpg')!important;
+	background-position: top center;	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #05498A!important;
+    padding: 0 auto;
+    margin: 0 auto;
+	height: 100%;
+	scrollbar-color: auto;
+}
+
+.logo{
+	background-position: top center;
+	width: 160px;
+	height: 185px;
+	padding: 10%;
+}
+
+.avatar{
+	background-position: top center;
+	background-size: 100%;
+	width: 420px;
+	height: 410px;
+}
+
+.footer{
+	background-image: url('../images/footer.png');
+	background-size: 100% 100%;
+	background-position: center -10px;
+	background-repeat: no-repeat;
+    text-align: center;
+    height: 180px;
+}
+
+.footer button{
+	background-image: url('../images/jogar.png');
+	background-repeat: no-repeat;
+	background-color: Transparent;
+	margin-top: 40px;
+	width: 269px;
+    height: 86px;
+    border: none!important;
+	cursor:pointer;
+	overflow: hidden;
+    z-index: 1;
+}
+
+.footer button:hover{
+	-webkit-filter: saturate(1.5);
+	filter: saturate(1.5);
+}	
+
+.footer button:focus, button:active {
+    border: none!important;
+    outline: none!important;
+}
+
+
+.margin-top-1{
+	margin-top: 1%;
+}
+
+.margin-top-2{
+	margin-top: 2%;
+}
+
+.margin-top-3{
+	margin-top: 3%;
+}
+
+.margin-top-4{
+	margin-top: 4%;
+}
+
+.margin-top-5{
+	margin-top: 5%;
+}
+
+.opacity-on{
+	opacity: 0.80;
+}
+
+.opacity-off{
+	opacity: 1;
+}
+
+.button-t{
+	background-image: url('../images/nums/bg_button.png');
+	background-color: #1fc8db;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	background-color: black;
+	border-radius: 9px;
+	border-top: 3px solid #102E52;
+	border-left: 6px solid #091A2F;
+	border-right: 6px solid #091A2F;
+	border-bottom: 3px solid #102E52;
+	width: auto;
+    height:180px;
+    cursor: pointer;
+	opacity: 0.85;
+	margin-right: 10px;
+	margin-bottom: 1%;
+}
+
+.button-t:hover{
+	border-top: 3px solid #102E52!important;
+	border-left: 6px solid #091A2F!important;
+	border-right: 6px solid #091A2F!important;
+	border-bottom: 3px solid #102E52!important;
+	    outline: none!important;
+	opacity: 1;
+}
+
+.button{
+	border-radius: 9px;
+	width: 180px;
+    height:180px;
+    cursor: pointer;
+	float: left;
+	opacity: 0.75;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-image: url('../images/nums/bg_nums.png')!important;
+}
+
+.button:hover{
+	opacity: 1;
+}	
+
+.button:focus, .button:active {
+    border: none!important;
+    outline: none!important;
+}
+
+.button-f{
+	border-radius: 9px;
+    cursor: pointer;
+	float: left;
+	opacity: 0.75;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-image: url('../images/nums/bg_nums.png')!important;
+}
+
+.button-f:hover{
+	opacity: 1;
+}	
+
+.button-f:focus, .button-f:active {
+    border: none!important;
+    outline: none!important;
+}
+
+.ajustar-button{
+	width: 120px;
+	height: 120px;
+}
+
+.ajustar-button-submit{
+	width: auto;
+	height: auto;
+}
+
+.ajustar-imagem{
+	width: 100%;
+	height: 100%;
+}
+
+.tamanho{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: top center;
+	width: 70px;
+}
+
+.adição{
+	background-image: url('../images/nums/adição.png');
+}
+
+.subtração{
+	background-image: url('../images/nums/subtração.png');
+}
+
+.multiplicação{
+	background-image: url('../images/nums/multiplicação.png');
+}
+
+.divisão{
+	background-image: url('../images/nums/divisão.png');
+}
+
+.igual{
+	background-image: url('../images/nums/igual.png');
+}
+
+.pergunta{
+	background-image: url('../images/nums/pergunta.png');
+}
+
+.adição{
+	background-image: url('../images/nums/adição.png');
+}
+
+.subtração{
+	background-image: url('../images/nums/subtração.png');
+}
+
+.multiplicação{
+	background-image: url('../images/nums/multiplicação.png');
+}
+
+.divisão{
+	background-image: url('../images/nums/divisão.png');
+}
+
+.quest{
+	/* 
+		background-color: rgba(255, 255, 255, 0.7);
+	*/
+	background-color: white;
+	border-left: 6px solid #000;
+	border-right: 6px solid #000;
+	border-radius: 9px;
+	width: 94%;
+	margin-left: 3%;
+	font-size: 36px;
+	text-align: center;
+}
+
+.libras{
+	font-family: 'Libras-2016', sans-serif;
+}
+
+
+/* 
+/////////////////////////////////////////////////
+///////////// MEDIA SCREEN 768X1024 /////////////
+/////////////////////////////////////////////////
+*/
+@media only screen and (max-width: 768px) {
+	body{
+		height: 100%;
+	}
+	
+	.button-t{
+		width: auto;
+	    height:180px;
+		text-align: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center
+	}
+}
+/* 
+/////////////////////////////////////////////////
+///////////// MEDIA SCREEN 720X1440 /////////////
+/////////////////////////////////////////////////
+*/
+@media only screen and (max-width: 720px) {
+	body{
+		height: 100%;
+	}
+}
+/* 
+/////////////////////////////////////////////////
+////////////// MEDIA SCREEN 480X320 /////////////
+/////////////////////////////////////////////////
+*/
+@media only screen and (max-width: 480px) {
+	body{
+		height: 100%;
+	}
+	.logo{
+		background-position: top center;
+		width: 80px;
+		height: 105px;
+	}
+
+	.avatar{
+		background-position: top center;
+		background-size: 100%;
+		margin-top: -20px;
+		width: 200px;
+		height: 200px;
+	}
+
+	.footer{
+		background-size: 130% 110%;
+		background-position: top center;
+	    margin-top: -20px;
+	    height: 120px;
+	}
+
+	.footer button{
+		background-size: 100%;
+		width: 169px;
+	    height: 56px;
+	}
+
+	.margin-top-5{
+		margin-top: 5%;
+	}
+
+	.button{
+		width: 90px;
+	    height: 90px;
+	}
+
+	.button .ajuste{
+		width: 90px;
+	    height: 90px;
+	}
+
+	.button-f{
+		width: 90px;
+	    height:90px;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+		
+	.button-t{
+		width: auto;
+	    height:80px;
+		text-align: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center
+	}
+}
+/* 
+/////////////////////////////////////////////////
+////////////// MEDIA SCREEN 320X480 /////////////
+/////////////////////////////////////////////////
+*/
+@media only screen and (max-width: 320px){
+	body{
+		height: 100%;
+	}
+
+	.logo{
+		background-position: top center;
+		width: 100px;
+		height: 125px;
+	}
+
+	.avatar{
+		background-position: top center;
+		background-size: 100%;
+		width: 250px;
+		height: 250px;
+	}
+
+	.footer{
+		background-size: 130% 110%;
+		background-position: top center;
+	    margin-top: -20px;
+	    height: 120px;
+	}
+
+	.footer button{
+		background-size: 100%;
+		width: 169px;
+	    height: 56px;
+	}
+
+	.margin-top-5{
+		margin-top: 5%;
+	}
+
+	.button{
+		width: 90px;
+	    height: 90px;
+	}
+
+	.button .ajuste{
+		width: 90px;
+	    height: 90px;
+	}
+
+	.button-f{
+		border-radius: 9px;
+		width: 80px;
+	    height:80px;
+	    cursor: pointer;
+		float: left;
+		opacity: 0.75;
+		margin-left: 2px;
+		margin-right: 2px;
+		background-image: url('../images/nums/bg_nums.png')!important;
+	}
+	
+	.button-t{
+		width: 300px;
+	    height:80px;
+		float: right;
+	}
+}
+
+
+	.button-t{
+		width: auto;
+		height: auto;
+	}
+
+	.count{
+		background-color: rgba(0, 0, 0, .6);
+		height: auto;
+		width: auto;
+		position: fixed;
+		bottom: 5px;
+		right: 5px;
+		padding: 10px;
+		border-radius: 6px;
+		color: white;
+		text-align: center;
+		border-left: 3px solid lightblue;
+		border-right: 3px solid lightblue;
+		border-top: 1px solid lightblue;
+		border-bottom: 1px solid lightblue;
+		opacity: .7;
+	}

@@ -1,0 +1,7 @@
+@font-face {
+	font-family: Libras-2016;
+	src: local(fonts/Libras-2016.otf), url(fonts/Libras-2016.otf);
+	src: url('fonts/Libras-2016.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

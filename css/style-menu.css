@@ -1,0 +1,19 @@
+  .menu{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    padding: 20px 20px 20px 10px;
+    position: relative;
+  }
+
+  .btt{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 6px;
+    padding: 10px;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+  }  
+
+  .btt:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+  }
